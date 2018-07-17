@@ -22,6 +22,7 @@ Shortcuts
 Open the default view of a service.
 
 <table>
+  <tr><td>Home</td><td>home</td></tr>
   <tr><td>CloudTrail</td><td>sct</td></tr>
   <tr><td>EC2</td><td>se2</td></tr>
   <tr><td>ElastiCache</td><td>sec</td></tr>
@@ -31,6 +32,8 @@ Open the default view of a service.
   <tr><td>Route 53</td><td>sr5</td></tr>
   <tr><td>S3</td><td>ss3</td></tr>
   <tr><td>VPC</td><td>svp</td></tr>
+  <tr><td>Lambda</td><td>da</td></tr>
+  <tr><td>Cloudformation</td><td>cft</td></tr>
 </table>
 
 ### Pages
