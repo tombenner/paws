@@ -12,7 +12,7 @@ Paws adds Vim-like keyboard shortcuts to the AWS Management Console.
 Installation
 ------------
 
-Paws can be used by installing [paws.js](https://raw.github.com/tombenner/paws/master/paws.js) in [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) (Chrome) or [Greasemonkey](https://addons.mozilla.org/en-us/firefox/addon/greasemonkey/) (Firefox).
+Paws can be used by installing [paws.user.js](https://raw.github.com/tombenner/paws/master/paws.user.js) in [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) (Chrome) or [Greasemonkey](https://addons.mozilla.org/en-us/firefox/addon/greasemonkey/) (Firefox).
 
 Shortcuts
 ---------
