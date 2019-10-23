@@ -29,6 +29,7 @@ Paws.App = (function () {
         'r53': {href: '/route53/home#hosted-zones:'},
         'rds': {href: '/rds/home#dbinstances:'},
         'red': {href: '/redshift/home#cluster-list:'},
+        'ddb': {href: '/dynamodb/home'},
         'ss3': {href: '/s3/home'},
         'vpc': {href: '/vpc/home'},
         'cft': {href: '/cloudformation/home'},
@@ -44,7 +45,7 @@ Paws.App = (function () {
         'l': {func: ['navbar', 'select']},
         'return': {func: ['navbar', 'select']}, // This doesn't work on some services
         // Miscellaneous
-        '/': {focus: '.gwt-TextBox:first'},
+        '/': {click: '#nav-servicesMenu .nav-elt-label'},
         '?': {open: 'https://github.com/tombenner/paws#shortcuts'},
         // lambda searchbox ???? WIP
         'lam': {focus: '.inputAndSuggestions.input'}
@@ -75,6 +76,11 @@ Paws.App = (function () {
                 callback = function () {
                     self.log('Selecting ' + value['focus']);
                     jQuery(value['focus']).focus();
+                };
+            } else if (value['click']) {
+                callback = function () {
+                    self.log('Clicking ' + value['click']);
+                    jQuery(value['click']).trigger("click");
                 };
             } else if (value['func']) {
                 callback = function () {
