@@ -3,7 +3,7 @@
 // @namespace    http://tombenner.co/
 // @version      0.0.1
 // @description  Keyboard shortcuts for the AWS Console
-// @author       Tom Benner
+// @author       Tom Benner / xargsuk
 // @match        https://*.console.aws.amazon.com/*
 // @grant        none
 // @require https://code.jquery.com/jquery-1.11.3.min.js
@@ -44,7 +44,7 @@ Paws.App = (function () {
         'return': {func: ['navbar', 'select']}, // This doesn't work on some services
         // Miscellaneous
         '/': {focus: '.gwt-TextBox:first'},
-        '?': {open: 'https://github.com/tombenner/paws#shortcuts'},
+        '?': {open: 'https://github.com/xargsuk/paws#shortcuts'},
         // lambda searchbox ???? WIP
         'lam': {focus: '.inputAndSuggestions.input'}
     };
