@@ -33,6 +33,7 @@ Paws.App = (function () {
         'cp': {href: '/codesuite/codepipeline'},
         'da': {href: '/lambda/home'},
         'org': {href: '/organizations'},
+        'cw': {href: '/cloudwatch'},
         // Pages
         'elb': {href: '/ec2/v2/home#LoadBalancers:'},
         'scg': {href: '/ec2/v2/home#SecurityGroups:sort=groupId'},
