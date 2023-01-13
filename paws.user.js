@@ -31,6 +31,7 @@ Paws.App = (function () {
         'cf': {href: '/cloudformation/home'},
         'cd': {href: '/codesuite/codedeploy'},
         'cp': {href: '/codesuite/codepipeline'},
+        'ssm': {href: '/systems-manager/home'},
         'da': {href: '/lambda/home'},
         'org': {href: '/organizations'},
         'cw': {href: '/cloudwatch'},
