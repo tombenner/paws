@@ -24,18 +24,16 @@ Paws.App = (function () {
         // Services
         'ct': {href: '/cloudtrail/home#/events'},
         'ec2': {href: '/ec2/v2/home#Instances:sort=desc:launchTime'},
-        'sec': {href: '/elasticache/home#cache-clusters:'},
         'iam': {href: '/iam/home#home'},
-        'r53': {href: '/route53/home#hosted-zones:'},
         'rds': {href: '/rds/home#dbinstances:'},
-        'red': {href: '/redshift/home#cluster-list:'},
         'ss3': {href: '/s3/home'},
         'vpc': {href: '/vpc/home'},
-        'cft': {href: '/cloudformation/home'},
+        'cf': {href: '/cloudformation/home'},
+        'cd': {href: '/codesuite/codedeploy'},
+        'cp': {href: '/codesuite/codepipeline'},
         'da': {href: '/lambda/home'},
+        'org': {href: '/organizations'},
         // Pages
-        'img': {href: '/ec2/v2/home#Images:sort=name'},
-        'vol': {href: '/ec2/v2/home#Volumes:sort=desc:createTime'},
         'elb': {href: '/ec2/v2/home#LoadBalancers:'},
         'scg': {href: '/ec2/v2/home#SecurityGroups:sort=groupId'},
         // Navbar
