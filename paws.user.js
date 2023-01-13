@@ -29,7 +29,7 @@ Paws.App = (function () {
         's3': {href: '/s3/home'},
         'vpc': {href: '/vpc/home'},
         'cfn': {href: '/cloudformation/home'},
-        'cf': {href: '/cloudfront/v3/home'},
+        'clf': {href: '/cloudfront/v3/home'},
         'cd': {href: '/codesuite/codedeploy'},
         'cp': {href: '/codesuite/codepipeline'},
         'ssm': {href: '/systems-manager/home'},
