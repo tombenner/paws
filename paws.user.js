@@ -26,7 +26,7 @@ Paws.App = (function () {
         'ec2': {href: '/ec2/v2/home#Instances:sort=desc:launchTime'},
         'iam': {href: '/iam/home#home'},
         'rds': {href: '/rds/home#dbinstances:'},
-        'ss3': {href: '/s3/home'},
+        's3': {href: '/s3/home'},
         'vpc': {href: '/vpc/home'},
         'cf': {href: '/cloudformation/home'},
         'cd': {href: '/codesuite/codedeploy'},
