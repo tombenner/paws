@@ -11,7 +11,7 @@ Paws adds Vim-like keyboard shortcuts to the AWS Management Console.
 Installation
 ------------
 
-Paws can be used by installing [paws.js](https://github.com/XargsUK/paws/raw/master/paws.user.js) in [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) (Chrome) or [Greasemonkey](https://addons.mozilla.org/en-us/firefox/addon/greasemonkey/) (Firefox).
+Paws can be used by installing [paws](https://github.com/XargsUK/paws/raw/master/paws.user.js) in [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) (Chrome) or [Greasemonkey](https://addons.mozilla.org/en-us/firefox/addon/greasemonkey/) (Firefox).
 
 Shortcuts
 ---------
@@ -22,17 +22,20 @@ Open the default view of a service.
 
 <table>
   <tr><td>Home</td><td>home</td></tr>
-  <tr><td>CloudTrail</td><td>sct</td></tr>
-  <tr><td>EC2</td><td>se2</td></tr>
-  <tr><td>ElastiCache</td><td>sec</td></tr>
-  <tr><td>IAM</td><td>sia</td></tr>
-  <tr><td>Redshift</td><td>sre</td></tr>
-  <tr><td>RDS</td><td>srd</td></tr>
-  <tr><td>Route 53</td><td>sr5</td></tr>
-  <tr><td>S3</td><td>ss3</td></tr>
-  <tr><td>VPC</td><td>svp</td></tr>
+  <tr><td>CloudTrail</td><td>ct</td></tr>
+  <tr><td>EC2</td><td>ec2</td></tr>
+  <tr><td>IAM</td><td>iam</td></tr>
+  <tr><td>RDS</td><td>rds</td></tr>
+  <tr><td>S3</td><td>s3</td></tr>
+  <tr><td>VPC</td><td>vpc</td></tr>
+  <tr><td>Cloudformation</td><td>cfn</td></tr>
+  <tr><td>CodeDeploy</td><td>cd</td></tr>
+  <tr><td>CodePipeline</td><td>cp</td></tr>
+  <tr><td>Systems Manager</td><td>ssm</td></tr>
   <tr><td>Lambda</td><td>da</td></tr>
-  <tr><td>Cloudformation</td><td>cft</td></tr>
+  <tr><td>Organizations</td><td>org</td></tr>
+  <tr><td>CloudWatch</td><td>cw</td></tr>
+  <tr><td>EC2 Security Groups</td><td>sg</td></tr>
 </table>
 
 ### Pages
@@ -67,3 +70,8 @@ License
 -------
 
 Paws is released under the MIT License. Please see the MIT-LICENSE file for details.
+
+Credits
+-------
+
+This is a fork of the project [paws](https://github.com/tombenner/paws). All credit goes to [tombenner](https://github.com/tombenner/)
