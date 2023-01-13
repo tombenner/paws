@@ -35,6 +35,7 @@ Paws.App = (function () {
         'da': {href: '/lambda/home'},
         'org': {href: '/organizations'},
         'cw': {href: '/cloudwatch'},
+        'sg': {href: '/vpc/home?SecurityGroups'},
         // Pages
         'elb': {href: '/ec2/v2/home#LoadBalancers:'},
         'scg': {href: '/ec2/v2/home#SecurityGroups:sort=groupId'},
