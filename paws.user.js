@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Paws
 // @namespace    http://tombenner.co/
-// @version      0.0.1
+// @version      0.0.2
 // @description  Keyboard shortcuts for the AWS Console
 // @author       Tom Benner / xargsuk
 // @match        https://*.console.aws.amazon.com/*
