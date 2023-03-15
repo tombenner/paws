@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Paws
 // @namespace    http://tombenner.co/
-// @version      0.0.2
+// @version      0.0.3
 // @description  Keyboard shortcuts for the AWS Console
 // @author       Tom Benner / xargsuk
 // @match        https://*.console.aws.amazon.com/*
@@ -22,7 +22,7 @@ Paws.App = (function () {
         //Home
         'home': {href: '/console'},
         // Services
-        'ct': {href: '/cloudtrail/home#/events'},
+        'cct': {href: '/cloudtrail/home#/events'},
         'ec2': {href: '/ec2/v2/home#Instances:sort=desc:launchTime'},
         'iam': {href: '/iam/home#home'},
         'rds': {href: '/rds/home#dbinstances:'},
@@ -43,6 +43,7 @@ Paws.App = (function () {
         'j': {func: ['navbar', 'next']},
         'k': {func: ['navbar', 'prev']},
         'l': {func: ['navbar', 'select']},
+        'r': {func: ['navbar', 'toggleRegionSelection']}, // Region selection
         'return': {func: ['navbar', 'select']}, // This doesn't work on some services
         // Miscellaneous
         '/': {focus: '.gwt-TextBox:first'},
@@ -104,6 +105,20 @@ Paws.App = (function () {
 
 Paws.Navbar = (function () {
     var self = this;
+    self.toggleRegionSelection = function () {
+        var regionDropdown = jQuery("button[data-testid='more-menu__awsc-nav-regions-menu-button']");
+        if (regionDropdown.length > 0) {
+            regionDropdown.click();
+            var regionList = jQuery(".nav-menu__regions__list");
+            if (regionList.is(":visible")) {
+                regionList.focus();
+            } else {
+                regionList.hide();
+            }
+        } else {
+            self.log("Region dropdown not found");
+        }
+    };
 
     self.select = function () {
         var selectedAnchor = self.getSelectedAnchor();
