@@ -64,6 +64,7 @@ Use the left sidebar navigation menu.
 <table>
   <tr><td>Show shortcuts</td><td>?</td></tr>
   <tr><td>Focus search box</td><td>/</td></tr>
+  <tr><td>Region menu dropdown</td><td>j</td></tr>
 </table>
 
 License
